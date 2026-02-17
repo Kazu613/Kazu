@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kazu-official</title>
@@ -10,20 +14,32 @@
         text-align: center;
         background-color: blue;
     }
+
     footer {
         text-align: center;
     }
+
+    #profilepic img {
+        border-radius: 50%;
+    }
+
+    @media (max-width: 430px) {
+        body {
+            text-align: center;
+        }
+    }
 </style>
+
 <body>
     <div class="title">
         <h1>KAZU OFFICIAL SITE</h1>
         <div id="profilepic">
-            <img src="profilepic.png">
+            <img src="profilepic.png" width="90%" height="90%">
         </div>
         <div class="introduction">
             <h2>Who is Kazu</h2>
-            <p>27歳。職業：システムエンジニア　趣味：ダンス　よろしくお願いします。</p>
-            <img src="street_show.png" width="700rem" height="500rem">
+            <p>27歳。<br>職業：システムエンジニア　<br>趣味：フリースタイルフットボール＆ダンス</b>　<br>よろしくお願いします。</p>
+            <img src="street_show.png" width="90%" height="90%">
         </div>
         <div class="youtube">
             <a href="https://youtu.be/uYx2O0I90hk">YouTube</a>
@@ -35,4 +51,5 @@
         <p>(Instagram)<br>kazujapan99</p>
     </div>
 </footer>
+
 </html>
